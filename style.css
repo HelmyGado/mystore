@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.contanir{
+    width: 90%;
+    margin: auto;
+    background-color:cornflowerblue;
+    border: 5px solid #ac9f9f4d;
+    border-radius: 11px;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 95%;
+    margin: auto;
+    word-spacing: 8px;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:cornflowerblue;
+}
+
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+
+.logo a:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar a:hover{
+    color: red;
+    transition: 0.6s;
+    
+}
+
+a.Contact {
+    background-color: black;
+    color: white;
+    padding: 6px 5px;
+    border-radius: 14px;
+    font-size: 17px;
+}
+
+.Contact:hover {
+    color: red;
+}
+
+.Home{
+    width: 95%;
+    margin: auto;
+}
+
+.text{
+    margin-top: 115px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text p span{
+    color: red;
+    font-size: 30px;
+}
+
+form a{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+form a:hover{
+    color: red;
+    width: 10%;
+}
+
+
+.cards{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#services h2{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#services:hover{
+    transition: 0.5s;
+}
+
+
+.card1{
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+
+.card1 img{
+    width: 250px;
+    height: 150px;
+}
+
+
+
+.card2{
+    width: 250px;
+    height: 200px;
+    display:block;
+    background-color: black;
+    color: white;
+}
+
+
+.card2 img{
+    width: 250px;
+    height: 150px;
+}
+
+
+.card3{
+    width: 250px;
+    height: 200px;
+    display:block;
+    background-color: black;
+    color: white;
+}
+
+
+.card3 img{
+    width: 250px;
+    height: 150px;
+}
+
+
+
+.card4{
+    width: 250px;
+    height: 200px;
+    display:block;
+    background-color: black;
+    color: white;
+}
+
+
+.card4 img{
+    width: 250px;
+    height: 150px;
+}
+
+
