@@ -53,7 +53,7 @@ body{
     
 }
 
-a.Contact {
+a #Contact {
     background-color: black;
     color: white;
     padding: 6px 5px;
@@ -65,7 +65,7 @@ a.Contact {
     color: red;
 }
 
-.Home{
+#About{
     width: 95%;
     margin: auto;
 }
@@ -106,6 +106,7 @@ form a:hover{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 #services h2{
@@ -177,6 +178,17 @@ form a:hover{
 .card4 img{
     width: 250px;
     height: 150px;
+}
+
+
+#Contact{
+    width: 29%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
 }
 
 
